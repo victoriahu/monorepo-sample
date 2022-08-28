@@ -1,0 +1,29 @@
+{
+  "name": "simple-shared-data",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "victoriahu <vhu@twilio.com>",
+  "homepage": "https://github.com/victoriahu/monorepo-sample#readme",
+  "license": "ISC",
+  "main": "lib/simple-shared-data.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoriahu/monorepo-sample.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/simple-shared-data.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/victoriahu/monorepo-sample/issues"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
